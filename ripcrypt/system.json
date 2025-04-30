@@ -1,0 +1,56 @@
+{
+	"id": "ripcrypt",
+	"title": "RipCrypt",
+	"description": "A dungeon sprint RPG. Faster than an arrow to the eye. Smoother than a clean blade. Compact with consequences.",
+	"version": "0.1.0",
+	"compatibility": {
+		"minimum": 13,
+		"verified": 13.341,
+		"maximum": 13
+	},
+	"authors": [
+		{
+			"name": "Alkali Metal"
+		}
+	],
+	"esmodules": [
+		"module/main.mjs"
+	],
+	"styles": [
+		{
+			"src": "templates/css/main.css",
+			"layer": "system"
+		}
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English (Canadian)",
+			"path": "langs/en-ca.json"
+		}
+	],
+	"manifest": "https://raw.githubusercontent.com/Alkali-Metal/my-foundry-packages/refs/heads/main/ripcrypt/system.json",
+	"download": "https://raw.githubusercontent.com/Alkali-Metal/my-foundry-packages/refs/heads/main/ripcrypt/0.1.0.zip",
+	"bugs": "",
+	"flags": {
+		"hotReload": {
+			"extensions": ["css", "hbs", "json", "mjs", "svg"],
+			"paths": ["assets", "templates", "langs", "module"]
+		}
+	},
+	"documentTypes": {
+		"Actor": {
+			"hero": {},
+			"geist": {}
+		},
+		"Item": {
+			"ammo": {},
+			"armour": {},
+			"craft": {},
+			"good": {},
+			"shield": {},
+			"skill": {},
+			"weapon": {}
+		}
+	}
+}
